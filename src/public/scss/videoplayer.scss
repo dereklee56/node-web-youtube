@@ -1,0 +1,28 @@
+body {
+  display: block;
+
+  .videoplayer-container {
+    position: relative;
+    top: 72px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 16px;
+  }
+
+  .button-container {
+    position: relative;
+    top: 72px;
+    justify-content: center;
+    padding-top: 16px;
+
+    .back-button {
+      width: 80px;
+      height: 40px;
+      background: #e54634;
+      color: black;
+      letter-spacing: 0.1em;
+      line-height: 0;
+      border: 1px solid #70251d;
+    }
+  }
+}

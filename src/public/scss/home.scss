@@ -1,0 +1,30 @@
+.home-search-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 48px;
+  width: 100%;
+  justify-content: center;
+
+  .home-search-form {
+    height: 48px;
+    width: 50vw;
+
+    .search-input {
+      height: 100%;
+    }
+  }
+
+  .search-button {
+    height: 48px;
+    border-radius: 0px 4px 4px 0px;
+    background: #ffdc51;
+    color: black;
+    border-top: 1px solid #c1c199;
+    border-right: 1px solid #c1c199;
+    border-bottom: 1px solid #c1c199;
+    border-left: none;
+    letter-spacing: 0.1em;
+    line-height: 0;
+  }
+}

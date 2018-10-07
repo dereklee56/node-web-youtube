@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  {{> head}}
+  <body>
+    <header>
+      {{> header}}
+    </header>
+    <div class="d-flex search-results-container" data-userquery={{userQuery}}>
+      {{#each searchResults}}
+      <div class="d-flex thumbnail-block" data-videokey={{vid}}>
+        <div class="thumbnail-image">
+          <img src="{{url}}" alt="Thumbnail">
+        </div>
+        <div class="thumbnail-details">
+          <h2>{{title}}
+          </h2>
+          <h3>{{description}}
+          </h3>
+          <h3>{{postDate}}
+          </h3>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </body>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  {{> head}}
+  <body>
+    <header>
+      {{> header}}
+    </header>
+    <div class="d-flex videoplayer-container">
+      <iframe id="player" type="text/html" width="640" height="390"
+      src="http://www.youtube.com/embed/{{videoId}}" frameborder="0">
+      </iframe>
+    </div>
+    {{#if userQuery}}
+    <div class="d-flex button-container" data-userquery={{userQuery}}>
+      <button class="btn btn-primary back-button">BACK</button>
+    </div>
+    {{/if}}
+  </body>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</html>

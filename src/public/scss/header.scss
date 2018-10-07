@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
+.header {
+  position: fixed;
+  background-color: white;
+  height: 72px;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid #d6d6d6;
+
+  .search-container {
+    align-items: center;
+    height: 100%;
+
+    .search-form {
+      height: 48px;
+      width: 50%;
+
+      .search-input {
+        height: 100%;
+        border-radius: 4px 0px 0px 4px;
+        border: 1px solid #c1c199;
+      }
+    }
+
+    .search-button {
+      height: 48px;
+      border-radius: 0px 4px 4px 0px;
+      background: #ffdc51;
+      color: black;
+      border-top: 1px solid #c1c199;
+      border-right: 1px solid #c1c199;
+      border-bottom: 1px solid #c1c199;
+      border-left: none;
+      letter-spacing: 0.1em;
+      line-height: 0;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.search-results-container {
+  position: relative;
+  top: 72px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 60vw;
+
+  h2 {
+    font-size: 1em;
+  }
+
+  h3 {
+    font-size: 0.5em;
+  }
+
+  .thumbnail-block {
+    flex-basis: 100%;
+    padding: 1em;
+    justify-content: left;
+    width: 50vw;
+
+    .thumbnail-image {
+      img {
+        border-radius: 0.2em;
+      }
+    }
+
+    .thumbnail-details {
+
+    }
+
+    .thumbnail-details {
+      margin-left: 2em;
+    }
+  }
+}
